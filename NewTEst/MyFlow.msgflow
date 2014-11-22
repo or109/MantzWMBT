@@ -18,7 +18,7 @@
       <nodes xmi:type="ComIbmFilter.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="329,210" filterExpression="esql://routine/#MyFlow_Filter.Main">
         <translation xmi:type="utility:ConstantString" string="Filter"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="208,333" computeExpression="esql://routine/#MyFlow_Compute.Main">
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="243,322" computeExpression="esql://routine/#MyFlow_Compute.Main">
         <translation xmi:type="utility:ConstantString" string="MyKAKAI"/>
       </nodes>
       <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="256,141" mappingExpression="msl://{default}#MyFlow_Mapping">
