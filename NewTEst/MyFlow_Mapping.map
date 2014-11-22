@@ -12,5 +12,8 @@
         <assign value="123">
             <output path="SOAP_Domain_Msg/Context/@operationType"/>
         </assign>
+        <assign value="4444">
+            <output path="SOAP_Domain_Msg/Context/@service"/>
+        </assign>
     </mappingDeclaration>
 </mappingRoot>
