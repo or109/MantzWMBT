@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.4.0" xmlns="http://www.ibm.com/2008/ccl/Mapping" xmlns:map="default">
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/SOAPDomainMsg.xsd"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="MyFlow_Mapping">
+        <output path="mb:msg(SOAP_Domain_Msg,assembly,SOAP,Properties)"/>
+    </mappingDeclaration>
+</mappingRoot>
