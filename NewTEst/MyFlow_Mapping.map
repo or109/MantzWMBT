@@ -3,5 +3,14 @@
     <generation engine="xquery"/>
     <mappingDeclaration name="MyFlow_Mapping">
         <output path="mb:msg(SOAP_Domain_Msg,assembly,SOAP,Properties)"/>
+        <assign value="123">
+            <output path="SOAP_Domain_Msg/Context/@fileName"/>
+        </assign>
+        <assign value="123">
+            <output path="SOAP_Domain_Msg/Context/@operation"/>
+        </assign>
+        <assign value="123">
+            <output path="SOAP_Domain_Msg/Context/@operationType"/>
+        </assign>
     </mappingDeclaration>
 </mappingRoot>
