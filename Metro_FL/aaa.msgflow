@@ -8,19 +8,7 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/Metro_FL/icons/full/obj16/aaa.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/Metro_FL/icons/full/obj30/aaa.gif"/>
     <composition>
-<<<<<<< HEAD
-      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="59,106" queueName="dsda">
-        <translation xmi:type="utility:ConstantString" string="MQ Input"/>
-      </nodes>
-      <nodes xmi:type="sub_AAA.msgflow:FCMComposite_1" xmi:id="FCMComposite_1_2" location="162,253">
-        <translation xmi:type="utility:ConstantString" string="sub_AAA"/>
-      </nodes>
-      <nodes xmi:type="sub_BBB.msgflow:FCMComposite_1" xmi:id="FCMComposite_1_3" location="291,196">
-        <translation xmi:type="utility:ConstantString" string="sub_BBB"/>
-      </nodes>
-      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.Input"/>
-=======
-      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="35,198" queueName="dsda">
+      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="39,188" queueName="dsda">
         <translation xmi:type="utility:ConstantString" string="MQ Input"/>
       </nodes>
       <nodes xmi:type="sub_AAA.msgflow:FCMComposite_1" xmi:id="FCMComposite_1_2" location="162,253">
@@ -35,7 +23,6 @@
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.Input"/>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_2" sourceTerminalName="OutTerminal.Output" targetTerminalName="InTerminal.Input"/>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_3" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.Output" targetTerminalName="InTerminal.Input"/>
->>>>>>> refs/heads/dvlp
     </composition>
     <propertyOrganizer/>
     <stickyBoard/>
