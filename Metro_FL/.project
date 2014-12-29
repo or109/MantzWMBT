@@ -3,8 +3,7 @@
 	<name>Metro_FL</name>
 	<comment></comment>
 	<projects>
-		<project>MyWSDLS</project>
-		<project>Metro_FLJava</project>
+		<project>withFlow_LIB</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
